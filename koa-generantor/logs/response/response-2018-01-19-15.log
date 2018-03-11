@@ -1,0 +1,84 @@
+[2018-01-19T15:47:57.492] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-01-19T15:47:57.828] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-01-19T15:48:12.834] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-01-19T15:55:29.988] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::1
+request query:  {}
+response time: 11
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-01-19T15:55:31.918] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 329
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+
+[2018-01-19T15:55:31.948] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /stylesheets/style.css
+request client ip:  ::1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"/Users/wanyuqing/git/koa2/koa-generantor/public/stylesheets/style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-01-19T15:56:05.383] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 6
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+

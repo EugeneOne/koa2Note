@@ -1,0 +1,21 @@
+{
+  "name": "liaoxuefeng",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "koa",
+    "async"
+  ],
+  "dependencies": {
+    "koa": "2.0.0",
+    "koa-bodyparser": "3.2.0",
+    "koa-router": "7.0.0",
+    "nunjucks": "2.4.2",
+    "mime": "1.3.4",
+    "mz": "2.4.0"
+  }
+}
