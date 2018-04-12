@@ -4,7 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import axiosPlugin from "./ajax"
+import apiPlugin from "./common/api"
 import iView from 'iview'
+import moment from 'moment'
 import 'iview/dist/styles/iview.css';
 import 'normalize.css/normalize.css'
 
@@ -13,6 +15,12 @@ import 'normalize.css/normalize.css'
 Vue.use(iView);
 Vue.config.productionTip = false
 Vue.use(axiosPlugin);
+Vue.use(apiPlugin);
+
+Object.defineProperty(Vue.prototype,'moment',{
+  value: moment
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

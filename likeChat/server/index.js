@@ -4,6 +4,7 @@ const bodyParser = require("koa-bodyparser");
 // 用于cors跨域
 const cors = require("koa2-cors");
 const router = require("./routes/index")
+const moment = require("moment")
 const { query } = require("./db/index");
 
 
@@ -30,5 +31,6 @@ app.use(bodyParser())
 app.use(router.routes()).use(router.allowedMethods())
 
 global.query = query;
+global.moment = moment;
 
 console.log("服务器已启动,端口3000");

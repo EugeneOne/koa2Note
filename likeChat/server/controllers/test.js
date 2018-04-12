@@ -11,7 +11,7 @@ module.exports = async (ctx, next) => {
 	// 	return;
     // } else {
     //     console.log(ctx.request)
-    // }
-    const RowDataPacket = await user_info.findDataByName(ctx.request.query.name)
-    console.log(RowDataPacket[0],RowDataPacket[0].user_id)
+    // // }
+    // const RowDataPacket = await user_info.findDataByName(ctx.request.query.name)
+    // console.log(RowDataPacket[0],RowDataPacket[0].user_id)
 };
